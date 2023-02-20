@@ -1,0 +1,340 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;}
+.body 
+{background-color: #FFFFFF }
+
+    :root{--main-title-color: #2E2F42; 
+          --accent-color: #4D5AE5 
+        --sekondary-font:'Raleway', sans-seri}
+
+.btn {
+font-family: 'Roboto',sans-seri;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+cursor:pointer;
+ }
+ .title
+ {font-family: 'Roboto',sans-seri;;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+ }
+ .description
+ {font-family: 'Roboto',sans-seri;;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /letter-spacing: 0.02em;
+}
+.subject
+{ font-family: 'Roboto',sans-seri;;
+  font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;}
+
+    .logo{font-family:var(sekondary-font);
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;}
+/* -----------------------------header------------------------------------ */
+.header-logo {
+   
+   
+    color: #4D5AE5;
+}
+
+.header-logo span {
+   
+color:#2E2F42; 
+    
+   
+}
+
+.menu-link {
+    font-family: 'Roboto',sans-seri;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+     }
+
+.meil-link {
+    font-family: 'Roboto',sans-seri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.meil-link:hover, 
+.meil-link:focus {
+    color: #404BBF;
+}
+
+.tel {
+    font-family: 'Roboto',sans-seri;;
+    sans-seri font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/ ---------------------------*Effective Solutions for Your Business *----------------------------------------------------------/ 
+
+
+   
+.hirol-tiatl
+{
+    font-family: 'Roboto',sans-seri;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;  }
+    
+    .hirol{
+    background-color: #0a0b23;
+    color:#FFFFFF;}
+
+    .hirol-btn {
+    color: #FFFFFF; }
+
+.hirol-btn:hover,
+.hirol-btn:focus{
+color: #404BBF;
+background-color:  #4D5AE5;}
+ 
+
+/* ----------------------------------principes.principes-subject ------------------------------ */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.principes-description {
+    
+    color: #434455;
+}
+
+
+
+
+/* ----------------------------What are we doing------------------------------------------- */
+.doing-title {
+    
+    color: var(--main-title-color);
+}
+
+/* ---------------------------------Our Team -------------------------------------------------*/
+
+.tem-titel {
+    
+    color: var(--main-title-color);
+}
+
+.tem-subject {
+    
+    color: var(--main-title-color);
+}
+
+.tem-description {
+    
+    color: #434455;
+}
+.tem {
+    background-color: #F4F4FD
+ }
+.tem-item { 
+    background-color: gainsboro}
+/*---------------------------------------------- footer.------------------------------------ */
+.footer-logo{
+
+
+color: #4D5AE5;}
+
+.footer-second-logo{   
+
+
+color: #F4F4FD;
+
+}
+
+.footer-description {
+    
+    color: #E7E9FC;
+}
+.footer
+{
+    background-color: #2E2F42;}
+/* -----------------------------------------header portfolio--------------------------------------- */
+
+
+.header-logo
+{ 
+color: #4D5AE5;
+}
+
+
+.header-second-logo {
+
+   
+    color: var(--main-title-color);
+}
+
+.menu-link {
+    font-family: 'Roboto',sans-seri;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);}
+
+    .menu-link:hover,
+    .menu-link:focus
+    {color: #404BBF;
+   
+    }
+
+.meil-link {
+font-family: 'Roboto',sans-seri;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.meil-link:hover,
+.meil:focus{
+color: #404BBF;
+}
+.tel-link 
+{font-family: 'Roboto,'sans-seri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* -----------------------------------------------button------------------------------------------------- */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+.navegetion-btn{ 
+    color: #4D5AE5;
+   
+    background-color: #FFFFFF;
+}
+
+.navegetion-btn:hover,
+.navegetion-btn:focus
+{ color: #FFFFFF;
+   background-color: #404BBF;
+}
+
+
+
+/* ---------------------------------imagis--------------------------------------------------------- */
+
+
+.images-title visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+
+.images-subject {
+    
+    color: var(--main-title-color);
+    
+}
+.images-description {
+    color: #434455;
+    
+    }
+    /* ----------------------------------footer portfolio--------------------------------------------------- */
+
+    .footer-logo{
+        
+        
+        color: #4D5AE5;}
+        
+        
+        .footer-second-logo{   
+     
+        
+        color: #F4F4FD;
+        
+        }
+        
+        .footer-description {
+            
+            color: #E7E9FC;
+        }
+        .footer
+        {
+            background-color: #2E2F42;}
+
+
+
+
+
+
