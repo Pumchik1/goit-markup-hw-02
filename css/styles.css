@@ -2,7 +2,7 @@
     --main-title-color: #2E2F42; 
     --first-color:  #FFFFFF;
     --accent-color: #4D5AE5;
-    --sekondary-font: Raleway, sans-seri;
+    --sekondary-font:Raleway, sans-seri;
     --focus-color: #404BBF;
     --contact-color: #434455;
     --btn-color: #4D5AE5;
@@ -16,19 +16,21 @@
 .link {
     text-decoration: none;}
 
-.body {
+body {
     font-family: 'Roboto', sans-seri;
-    font-weight: 500;
+
     background-color: var(--first-color);}
 
 .btn {
-    font-family: 'Roboto', sans-seri;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: 'Raleway',sans-seri;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
     display: flex;
     align-items: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     cursor: pointer;}
 
 .title {
@@ -61,6 +63,9 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;}
+
+address{ 
+    font-style:normal;}
 /* -----------------------------header------------------------------------ */
 .header-logo {
     color:var(--accent-color);}
@@ -82,25 +87,32 @@
     color: var(--focus-color);}
 
 .meil-link {
-   
-   
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--contact-color);}
-
-.meil-link:hover,
-.meil-link:focus {
-    color: var(--focus-color);}
-
-.tel {
-   
-    
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--contact-color);}
+    color: var(--contact-color);
+    cursor:auto;}
+      
+   
+   
+.meil-link:hover,
+.meil-link:focus {
+    color: var(--focus-color);}
+
+.tel {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--contact-color);
+    cursor: auto;}
+   
+   
+    
 
 /*---------------------------Effective Solutions for Your Business ----------------------------------------------------------*/ 
 .hirol-tiatl {
