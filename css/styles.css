@@ -2,7 +2,7 @@
     --main-title-color: #2E2F42; 
     --first-color:  #FFFFFF;
     --accent-color: #4D5AE5;
-    --sekondary-font:Raleway, sans-seri;
+    --sekondary-font:Raleway, sans-serif;
     --focus-color: #404BBF;
     --contact-color: #434455;
     --btn-color: #4D5AE5;
@@ -17,21 +17,19 @@
     text-decoration: none;}
 
 body {
-    font-family: 'Roboto', sans-seri;
+    font-family: 'Roboto', sans-serif;
 
     background-color: var(--first-color);}
 
 .btn {
-    font-family: 'Raleway',sans-seri;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    cursor: pointer;}
+    letter-spacing: 0.04em;}
 
 .title {
     font-size: 36px;
@@ -54,7 +52,7 @@ body {
     letter-spacing: 0.02em;}
 
 .logo {
-    font-family: var(sekondary-font);
+    font-family: Raleway, sans-serif; 
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -89,7 +87,7 @@ address{
 .meil-link {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -104,7 +102,7 @@ address{
 
 .tel {font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -171,8 +169,7 @@ address{
 .tem {
     background-color: var(--logo-color);}
 
-.tem-item {
-    background-color: gainsboro;}
+
 
 /*---------------------------------------------- footer.------------------------------------ */
 .footer-logo {
@@ -245,7 +242,7 @@ address{
     overflow: hidden;}
 
 .navegetion-btn {
-    color: var(--btn-color);
+     color: var(--btn-color);
     background-color: var(--first-color);}
 
 .navegetion-btn:hover,
@@ -273,7 +270,7 @@ address{
 
 /* ----------------------------------footer portfolio--------------------------------------------------- */
 .footer-logo {
-    color: var(--btn-color) ;}
+    color: var(--btn-color);}
 
 .footer-second-logo {
     color: var(--logo-color);}
